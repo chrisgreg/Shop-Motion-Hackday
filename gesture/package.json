@@ -5,8 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "apds-gesture": "0.0.1",
+    "express": "^4.15.5",
     "johnny-five": "^0.11.6",
-    "tessel-io": "^1.0.1"
+    "nodejs-websocket": "^1.7.1",
+    "socket.io": "^2.0.3",
+    "tessel-io": "^1.0.1",
+    "websocket": "^1.0.24",
+    "ws": "^3.2.0"
   },
   "devDependencies": {},
   "scripts": {

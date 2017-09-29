@@ -26,3 +26,32 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.slider {
+  height: 100vh !important;
+}
+
+.slider-frame {
+  height: 100vh !important;
+}
+
+.example-appear {
+  opacity: 0.01;
+  transform: translateY(0px);
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 1s ease-in;
+}
+
+@font-face {
+  font-family: 'Akkurat';
+  src: local('Akkurat'), url(./Akkurat/akkurat-regular-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: local('Chronicle'), url(./Chronicle/ChronicleDisplay-Roman.woff) format('woff');
+}

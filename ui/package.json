@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "create-react-class": "^15.6.2",
+    "nuka-carousel": "^2.3.0",
     "react": "^16.0.0",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "react-websocket": "^1.2.0",
+    "styled-components": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
